@@ -1,0 +1,13 @@
+a=input("Enter the string : ")
+b=input("Enter the string : ")
+a=a.lower()
+b=b.lower()
+str1=sorted(a)
+str2=sorted(b)
+if len(a)==len(b):
+	if str1==str2:
+ 		print(a +" and "+ b +" are anagrams")
+	else:
+    print("not an anagram")
+else:
+	  print("not an anagram")
